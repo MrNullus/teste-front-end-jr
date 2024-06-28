@@ -1,5 +1,6 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
+import Home from "../pages/Home";
 
 interface RouteConfig {
   path: string;
@@ -9,7 +10,7 @@ interface RouteConfig {
 const routes: RouteConfig[] = [
   {
     path: "/",
-    element: <>Hello World</>,
+    element: <Home />,
   },
 ];
 
